@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>ServeletDocente</servlet-name>
+  	<display-name>ServeletDocente</display-name>
+  	<description></description>
+  	<servlet-class>com.studentHomework.Contrladores.ServeletDocente</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServeletGestionarDocentes</servlet-name>
+  	<display-name>ServeletGestionarDocentes</display-name>
+  	<description></description>
+  	<servlet-class>com.studentHomework.Contrladores.ServeletGestionarDocentes</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ServeletActividades</servlet-name>
+  	<display-name>ServeletActividades</display-name>
+  	<description></description>
+  	<servlet-class>com.studentHomework.Contrladores.ServeletActividades</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>ServeletDocente</servlet-name>
+  	<url-pattern>/ServeletDocente</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServeletGestionarDocentes</servlet-name>
+  	<url-pattern>/ServeletGestionarDocentes</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ServeletActividades</servlet-name>
+  	<url-pattern>/ServeletActividades</url-pattern>
+  </servlet-mapping>
+</web-app>
